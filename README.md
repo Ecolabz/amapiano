@@ -1,9 +1,11 @@
 # Amapiano
+Built with Next.js and Tailwind css. 
 
 #### Install all packages
 yarn install
 
-### Project runs on localhost:3000
+### Localhosting
+Project runs on localhost:3000
  
 
  
