@@ -6,7 +6,7 @@ class CustomDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={true} />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <meta name="apple-mobile-web-app-title" content="" />
           <meta name="theme-color" content="#231c3b" />
           <link rel="manifest" href="/site.webmanifest"></link>

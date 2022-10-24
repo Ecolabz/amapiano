@@ -15,6 +15,10 @@ function Contact() {
   const [form, setForm] = useState(initialState);
   const [loading, setLoading] = useState(false);
 
+  const Service_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+  const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+  const USER_ID = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
+
   const handleChange = e => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
@@ -22,7 +26,7 @@ function Contact() {
   const handleSubmit = e => {
     setLoading(true);
     e.preventDefault();
-    send('service_7u1cbgb', 'template_oezgjg1', form, 'ghNsOgyHsphEuXA90')
+    send(`${Service_ID}`, `${TEMPLATE_ID}`, form, `${USER_ID}`)
       .then(res => {
         setLoading(false);
         toast.success('Your response was sent successfully');
@@ -61,10 +65,11 @@ function Contact() {
           Send us a message and we will contact you as soon as we can.
         </p>
         <form
-          onSubmit={handleSubmit}
+          autoComplete="off"
           className="max-w-[550px] py-4 mx-auto w-full flex flex-col"
           data-aos="fade-up"
           data-aos-duration="1500"
+          onSubmit={handleSubmit}
         >
           <div className="my-2">
             <Input type="text" placeholder="Full Name" name="fullName" onChange={handleChange} />
