@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../../components/general/Button';
 import Input from '../../components/general/Input';
-import MailchimpFormContainer from '../../components/MailChimpFormContainer';
+// import MailchimpFormContainer from '../../components/MailChimpFormContainer';
 
 function Subscribe() {
   return (
@@ -13,14 +13,14 @@ function Subscribe() {
       <p className="font-sansPro  tracking-[0.02em] text-[22px] py-2 leading-[40px]">
         Get ready to have the time of your life
       </p>
-      {/* <div className="flex flex-col md:flex-row md:items-center w-full md:max-w-[470px] mx-auto px-2 md:px-0 py-4 md:space-x-4">
+      <div className="flex flex-col md:flex-row md:items-center w-full md:max-w-[470px] mx-auto px-2 md:px-0 py-4 md:space-x-4">
         <Input type={'text'} placeholder={'Email Address'} />
         <div className="block mb-2 md:hidden"></div>
         <Button title={'Subscribe'} />
-      </div> */}
-      <div className="w-full">
-        <MailchimpFormContainer />
       </div>
+      {/* <div className="w-full">
+        <MailchimpFormContainer />
+      </div> */}
     </div>
   );
 }

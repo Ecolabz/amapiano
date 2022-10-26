@@ -2,7 +2,7 @@
 import React from 'react';
 import Button from '../../components/general/Button';
 import Input from '../../components/general/Input';
-import MailchimpFormContainer from '../../components/MailChimpFormContainer';
+// import MailchimpFormContainer from '../../components/MailChimpFormContainer';
 
 function Landing() {
   return (
@@ -25,13 +25,18 @@ function Landing() {
       >
         Get ready for the event of the year !
       </p>
-      <div data-aos="fade-up" data-aos-duration="2000" className="w-full">
+      {/* <div data-aos="fade-up" data-aos-duration="2000" className="w-full">
         <MailchimpFormContainer />
-        {/* <Input type={'text'} placeholder={'Email Address'} />
+      </div> */}
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        className="flex flex-col md:flex-row md:items-center justify-center w-full px-4 lg:px-0 mb-2   md:max-w-[470px] mx-auto py-4 md:space-x-4"
+      >
+        <Input type={'text'} placeholder={'Email Address'} />
         <div className="block mb-3 md:hidden"></div>
-        <Button title={'Subscribe'} /> */}
+        <Button title={'Subscribe'} />
       </div>
-      {/* <div className="bg-home-sahdow top-[502px] -left-[156px] bg-no-repeat h-full" /> */}
       <div className="absolute left-0 w-full -bottom-[100px] ">
         <img src="/assets/home-shadow-rectangle.svg" alt="" className="w-full h-full" />
       </div>
