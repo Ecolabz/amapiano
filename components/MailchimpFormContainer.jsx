@@ -23,6 +23,8 @@ const CustomForm = ({ status, message, onValidated }) => {
       <Input type="email" name="email" placeholder={'Email Address'} value={email} onChange={handleChange} />
       <div className="block mb-2 md:hidden"></div>
 
+      {/* {status === 'sending' ? <Button title={'sending...'} /> : <Button type="submit" title={'Subscribe'} />} */}
+
       {status === 'sending' ? (
         <Button title={'sending...'} />
       ) : status === 'success' ? (
@@ -30,12 +32,14 @@ const CustomForm = ({ status, message, onValidated }) => {
       ) : (
         <Button type="submit" title={'Subscribe'} />
       )}
+
+      {/* <ButterToast position={{ vertical: POS_BOTTOM, horizontal: POS_RIGHT }} /> */}
     </form>
   );
 };
 
 const MailchimpFormContainer = props => {
-  //   const postUrl = `https://gmail.us21.list-manage.com/subscribe/post?u=6f74895adb75ee60d74c66f77&id=2ead9935e1`;
+  const postUrl = `https://gmail.us21.list-manage.com/subscribe/post?u=6f74895adb75ee60d74c66f77&id=2ead9935e1`;
 
   const post_url = process.env.NEXT_PUBLIC_MAILCHIMP_API_KEY;
   const form_uid = process.env.NEXT_PUBLIC_MAILCHIMP_FORM_UID;
@@ -46,7 +50,7 @@ const MailchimpFormContainer = props => {
   return (
     <div className="mc__form-container">
       <MailchimpSubscribe
-        url={mailchimp_url}
+        url={postUrl}
         render={({ subscribe, status, message }) => (
           <CustomForm status={status} message={message} onValidated={formData => subscribe(formData)} />
         )}
