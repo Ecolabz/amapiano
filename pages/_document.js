@@ -28,12 +28,12 @@ class CustomDocument extends Document {
           />
           <meta property="og:type" content="website" />
           <meta property="og:rich_attachment" content="true" />
-          <meta property="og:image" content="https://amapianolifestyle.com/assets/banner.jpg" />
+          <meta property="og:image" content="https://amapianolifestyle.com/assets/banner.jpeg" />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Amapiano lifestyle" />
           <meta name="twitter:creator" content="Amapiano lifestyle" />
           <meta name="twitter:site" content="@piano_lifestyle" />
-          <meta name="twitter:image" content="https://amapianolifestyle.com/assets/banner.jpg" />
+          <meta name="twitter:image" content="https://amapianolifestyle.com/assets/banner.jpeg" />
           <meta name="twitter:image:alt" content="amapiano lifestyle" />
           <meta
             name="twitter:description"

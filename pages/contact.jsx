@@ -72,19 +72,26 @@ function Contact() {
           onSubmit={handleSubmit}
         >
           <div className="my-2">
-            <Input type="text" placeholder="Full Name" name="fullName" onChange={handleChange} />
+            <Input type="text" placeholder="Full Name" name="fullName" onChange={handleChange} value={form.fullName} />
           </div>
           <div className="my-2">
-            <Input type="email" placeholder="Email Address" name="email" onChange={handleChange} />
+            <Input type="email" placeholder="Email Address" name="email" onChange={handleChange} value={form.email} />
           </div>
           <div className="my-2">
-            <Input type="text" placeholder="Phone Number" name="phoneNumber" onChange={handleChange} />
+            <Input
+              type="text"
+              placeholder="Phone Number"
+              name="phoneNumber"
+              onChange={handleChange}
+              value={form.phoneNumber}
+            />
           </div>
           <div className="my-2">
             <textarea
               rows={5}
               name="message"
               onChange={handleChange}
+              value={form.message}
               placeholder="Type your message"
               className="border border-AP-grey-200 text-AP-grey-200 focus:border-AP-blue-100 md:rounded-[25px] rounded-[12px] focus:outline-none w-full text-[16px] font-montserat px-4 py-4 h-full placeholder:font-sansPro"
               required
