@@ -1,6 +1,6 @@
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
-import Input from './general/Input';
-import Button from './general/Button';
+import Input from './Input';
+import Button from './Button';
 import { useState } from 'react';
 
 const CustomForm = ({ status, message, onValidated }) => {
@@ -36,7 +36,7 @@ const CustomForm = ({ status, message, onValidated }) => {
   );
 };
 
-const MailchimpFormContainer = props => {
+const NewsletterSubscribeForm = props => {
   const MAILCHIMP_URL = `${process.env.NEXT_PUBLIC_MAILCHIMP_API_KEY}`;
 
   return (
@@ -50,4 +50,4 @@ const MailchimpFormContainer = props => {
   );
 };
 
-export default MailchimpFormContainer;
+export default NewsletterSubscribeForm;
