@@ -54,8 +54,7 @@ function CountDown() {
         <div className="w-full flex  justify-center py-8 lg:pt-0 lg:pb-4 md:w-[500px] gap-4 px-4">
           <Time time={days} text="Days" />
           <Time time={hours} text="Hours" />
-          <Time time={mins} text="Minutes" />
-          <Time time={secs} text="Seconds" hide />
+          <Time time={mins} text="Minutes" hide />
         </div>
       )}
       <div className="py-6 md:pb-[120px] md:pt-6">
@@ -73,11 +72,11 @@ export default CountDown;
 const Time = ({ time, text, hide }) => (
   <div className="flex flex-col w-[90px] items-center justify-center text-center">
     <div className="flex items-center">
-      <h1 className="text-white font-montserat leading-[50px] lg:leading-[80px] mr-4 text-[30px] lg:text-[50px] font-bold">
+      <h1 className="text-white font-montserat leading-[50px] lg:leading-[80px] mr-4 text-[30px] lg:text-[50px] font-light">
         {time}
       </h1>
       <span
-        className={`text-white font-montserat leading-[50px] lg:leading-[80px] text-[30px] lg:text-[50px] font-bold ${
+        className={`text-white font-montserat leading-[50px] lg:leading-[80px] text-[30px] lg:text-[50px] font-light ${
           hide && 'hidden'
         }`}
       >
