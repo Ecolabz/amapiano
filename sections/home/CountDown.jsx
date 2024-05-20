@@ -13,7 +13,7 @@ function CountDown() {
 
   // time counter function
   let startTimer = () => {
-    let countdownDate = new Date('Decf 1, 2022 12:00:00').getTime();
+    let countdownDate = new Date('Aug 17, 2024 00:00:00').getTime();
     interval = setInterval(() => {
       let now = new Date().getTime();
       let distance = countdownDate - now;
