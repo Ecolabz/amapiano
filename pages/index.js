@@ -17,7 +17,7 @@ export default function Home() {
       <Landing />
       <CountDown />
       <Packages />
-      <FAQ />
+      {/* <FAQ /> */}
       <Subscribe />
     </>
   );
