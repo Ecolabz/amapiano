@@ -29,8 +29,8 @@ const navLinks = [
 const socialLinks = [
   {
     id: 1,
-    icon: 'twitter-fill',
-    href: 'https://twitter.com/piano_lifestyle',
+    icon: 'twitter-x-line',
+    href: 'https://x.com/piano_lifestyle',
   },
   {
     id: 2,
