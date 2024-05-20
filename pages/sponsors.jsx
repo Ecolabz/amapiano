@@ -20,7 +20,7 @@ function Sponsors() {
             Sponsors Wanted, are you are brand looking to become a sponsor of our lifestyle events?
           </p>
           <p className=" font-sansPro font-normal text-white text-lg md:text-[32px] md:leading-[40px] tracking-[0.02em] pt-10">
-            Don't hesitate to shoot us an email:{' '}
+            Don&apos;t hesitate to shoot us an email:{' '}
             <a href="malito:info@amapianolifestyle.com" className="underline ">
               info@amapianolifestyle.com
             </a>

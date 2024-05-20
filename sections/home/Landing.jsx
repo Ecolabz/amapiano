@@ -12,7 +12,7 @@ function Landing() {
         data-aos-duration="1000"
         className="font-[900] text-xl md:text-[48px] capitalize font-montserat md:leading-[58px] bg-white px-4 py-2 hidden md:block md:max-w-[998px] text-left"
       >
-        We Don't Host Parties
+        We Don&apos;t Host Parties
       </h1>
       <h1
         data-aos="fade-right"
@@ -23,7 +23,7 @@ function Landing() {
       </h1>
       <h1 className="font-[900] block md:hidden text-center px-6 leading-[45px] text-3xl uppercase font-sansPro text-white">
         {' '}
-        AMAPIANO LIFESTYLE <br /> IS HOSTING THE BIGGEST PARTY YOU’VE EVER SEEN.
+        AMAPIANO LIFESTYLE <br /> IS HOSTING THE BIGGEST PARTY YOU&apos;VE EVER SEEN.
       </h1>
       <div className="self-center w-[53.5rem] mt-4">
         <p
