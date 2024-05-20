@@ -59,7 +59,7 @@ function CountDown() {
         </div>
       )}
       <div className="py-6 md:pb-[120px] md:pt-6">
-        <Button title={'get your ticket'} />
+        <Button title={'get your tickets'} />
       </div>
       {/* <div className="absolute -bottom-[100px] left-0 w-full">
         <img src="/assets/home-shadow-rectangle-2.svg" alt="" className="w-full h-full" />
