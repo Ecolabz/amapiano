@@ -45,10 +45,10 @@ function CountDown() {
   return (
     <div className="bg-AP-grey-200 min-h-[600px] md:min-h-[500px] h-full w-full py-12 md:py-20  flex flex-col text-center items-center justify-center px-2 relative">
       <h1 className="text-white font-montserat text-[28px] px-6 md:px-0 md:text-[40px] font-semibold leading-[45px] lg:leading-[51px]">
-        The Littiest Music Festival You Have Ever Seen!{' '}
+        The Littest Lifestyle Event You Have Ever Seen!{' '}
       </h1>
       <p className="font-sansPro text-white tracking-[0.02em] text-[18px] lg:text-[22px] py-4 leading-[40px]">
-        Get ready to have the time of your life
+        Get ready to have the time of your life!
       </p>
       {display && (
         <div className="w-full flex  justify-center py-8 lg:pt-0 lg:pb-4 md:w-[500px] gap-4 px-4">
