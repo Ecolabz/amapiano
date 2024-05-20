@@ -6,18 +6,18 @@ import NewsletterSubscribeForm from '../../components/general/NewsletterSubscrib
 
 function Landing() {
   return (
-    <div className="md:min-h-[90vh] min-h-[65vh] w-full h-full -no-repeat bg-cover flex flex-col items-start justify-center bg-center bg-homeHero py-7 md:py-0 px-2 relative">
+    <div className="md:min-h-[100vh] min-h-[25rem] w-full h-full -no-repeat bg-cover flex flex-col items-start justify-center bg-center bg-homeHero py-7 md:py-0 md:pl-14 px-2 relative">
       <h1
         data-aos="fade-right"
         data-aos-duration="1000"
-        className="font-[900] text-xl md:text-[48px] capitalize font-montserat md:leading-[58px] bg-white px-4 py-2 hidden md:block md:max-w-[998px] text-left"
+        className="font-[900] text-xl md:text-[48px] capitalize font-montserat md:leading-[58px] bg-white px-2 py-6 hidden md:block md:max-w-[998px] text-left"
       >
         We Don&apos;t Host Parties
       </h1>
       <h1
         data-aos="fade-right"
         data-aos-duration="1000"
-        className="font-[900] text-xl md:text-[48px] capitalize font-montserat md:leading-[58px] bg-white px-4 py-2 hidden md:block md:max-w-[998px] text-left self-center mt-4"
+        className="font-[900] text-xl md:text-[48px] capitalize font-montserat md:leading-[58px] bg-white px-2 py-6 hidden md:block md:max-w-[998px] text-left self-center mt-4"
       >
         We Are A Lifestyle Connoisseur
       </h1>
@@ -34,9 +34,9 @@ function Landing() {
           Get ready for the event of the year !
         </p>
       </div>
-      <div data-aos="fade-up" data-aos-duration="2000" className="w-full">
+      {/*  <div data-aos="fade-up" data-aos-duration="2000" className="w-full">
         <NewsletterSubscribeForm />
-      </div>
+      </div> */}
       {/* <div
         data-aos="fade-up"
         data-aos-duration="2000"
