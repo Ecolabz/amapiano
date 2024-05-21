@@ -14,7 +14,12 @@ function History() {
           ABOUT <span className="text-AP-blue-300">AMAPIANO LIFESTYLE</span>
         </h1>
         <div className="w-full flex flex-col pt-[24px] lg:pt-[30px] pb-4 md:pb-[147px] gap-5">
-          <p
+          <h1 className="text-AP-grey-200 text-2xl md:text-[50px] md:leading-[80px] font-sansPro font-bold text-center uppercase italic">
+            It's not a party,
+            <br />
+            It's a Lifestyle.
+          </h1>
+          {/* <p
             data-aos="fade-up"
             data-aos-duration="1000"
             className="text-lg md:text-[28px] md:leading-[40px] tracking-[0.02em] font-normal text-AP-grey-300 font-sansPro"
@@ -33,7 +38,7 @@ function History() {
           >
             During this year's maiden event, Amapiano Lifestyle will bring "Lifestyle Tourism" to life through fashion,
             food, art and music{' '}
-          </p>
+          </p> */}
         </div>
       </section>
 
@@ -52,13 +57,13 @@ function History() {
             className="w-full flex flex-col pt-[60px] lg:pt-[99px] pb-[100px] lg:pb-[133px]"
           >
             <div className="flex items-center justify-start w-full gap-6 md:gap-6 pb-[26px]">
-              <img src="/assets/vision.svg" alt="our vision" className="w-[40px] h-[40px]  md:w-[60px] md:h-[60px]" />
+              {/*               <img src="/assets/vision.svg" alt="our vision" className="w-[40px] h-[40px]  md:w-[60px] md:h-[60px]" />
 
-              <h2 className="text-2xl md:text-[28px] font-montserat font-semibold text-AP-grey-200">Our Vision</h2>
+              <h2 className="text-2xl md:text-[28px] font-montserat font-semibold text-AP-grey-200">Our Vision</h2> */}
             </div>
             <p className=" text-AP-grey-300 text-lg md:text-[28px] md:leading-[40px] font-sansPro font-normal">
-              We are on a mission to empower the next sets of Amapiano creatives from African as we will give them a
-              platform to be heard by mainstream audience and community.
+              {/* We are on a mission to empower the next sets of Amapiano creatives from African as we will give them a
+              platform to be heard by mainstream audience and community. */}
             </p>
           </div>
         </div>

@@ -11,13 +11,13 @@ const navLinks = [
   },
   {
     id: 4,
-    href: '/events',
-    text: 'Events',
+    href: '/sponsors',
+    text: 'Sponsors',
   },
   {
     id: 5,
-    href: '/sponsors',
-    text: 'Sponsors',
+    href: '/events',
+    text: 'Events',
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const navLinks = [
 const socialLinks = [
   {
     id: 1,
-    icon: 'twitter-fill',
-    href: 'https://twitter.com/piano_lifestyle',
+    icon: 'twitter-x-line',
+    href: 'https://x.com/piano_lifestyle',
   },
   {
     id: 2,
@@ -39,18 +39,8 @@ const socialLinks = [
   },
   {
     id: 3,
-    icon: 'discord-line',
+    icon: 'discord-fill',
     href: 'https://discord.gg/xeXtWGKUAV',
-  },
-  {
-    id: 4,
-    icon: 'facebook-box-fill',
-    href: 'https://www.facebook.com/piano.life.styl',
-  },
-  {
-    id: 5,
-    icon: 'youtube-fill',
-    href: 'https://www.youtube.com/channel/UChAKOHOwMdEpFFBCNJ1T2Cw?sub_confirmation=1',
   },
 ];
 export { navLinks, socialLinks };

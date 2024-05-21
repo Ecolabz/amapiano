@@ -10,16 +10,17 @@ function Packages() {
         data-aos-duration="1000"
         className="font-montserat text-[30px] lg:text-[40px] font-semibold mb-10 leading-[58px] text-center"
       >
-        Extra Attractions
+        Amapiano Lifestyle Summer Vibes Zanzibar
       </h1>
       <div className="w-full px-4  md:max-w-[1300px] mx-auto">
         <Carousel />
       </div>
       <p className="text-center max-w-[800px] mx-auto font-sansPro leading-[30px] pt-16 pb-8 lg:pt-12  lg:pb-8 px-6 lg:px-0 text-[17px] lg:text-[22px]">
-        We also have a host of other extra experiences to ensure you have a well rounded and culturally immersed visit
-        to Zanzibar for Amapiano Lifestyle Fest.
+        Yes, our first lifestyle event is happening in Zanzibar this summer! We also have a host of other extra
+        experiences to ensure you have a well rounded and culturally immersed visit to Zanzibar for Amapiano Lifestyle
+        Summer Vibes Event.
       </p>
-      <Button title="View Packages" />
+      <Button title="Learn More" href="/events" />
     </div>
   );
 }

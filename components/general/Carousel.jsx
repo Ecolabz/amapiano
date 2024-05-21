@@ -58,12 +58,12 @@ const Carousel = () => {
   };
 
   const images = [
+    '/assets/pool.jpeg',
+    '/assets/room.jpg',
+    '/assets/darktime.jpg',
     '/assets/lightfall.png',
-    '/assets/moonlight.png',
-    '/assets/snow.png',
-    '/assets/lightfall.png',
-    '/assets/moonlight.png',
-    '/assets/snow.png',
+    '/assets/moonlight.jpg',
+    '/assets/apartment.jpg',
   ];
   return (
     <div>
