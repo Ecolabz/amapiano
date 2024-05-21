@@ -75,7 +75,7 @@ const Carousel = () => {
               className={`object-cover object-center w-full h-full ${
                 current === i
                   ? 'scale-110 -translate-x-3  duration-500'
-                  : `blur-[3px] z-50 ${width <= 410 ? 'scale-75' : 'scale-100'}`
+                  : ` z-50 ${width <= 410 ? 'scale-75' : 'scale-100'}`
               }`}
             />
           </div>
