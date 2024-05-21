@@ -43,7 +43,7 @@ function CountDown() {
   }, []);
 
   return (
-    <div className="bg-AP-grey-200 min-h-[600px] md:min-h-[500px] h-full w-full py-12 md:py-20  flex flex-col text-center items-center justify-center px-2 relative">
+    <div className="bg-AP-grey-200 min-h-[600px] md:min-h-[500px] h-full w-full py-8  flex flex-col text-center items-center justify-center px-2 relative">
       <h1 className="text-white font-montserat text-[28px] px-6 md:px-0 md:text-[40px] font-semibold leading-[45px] lg:leading-[51px]">
         The Littest Lifestyle Event You Have Ever Seen!{' '}
       </h1>
