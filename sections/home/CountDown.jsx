@@ -54,7 +54,8 @@ function CountDown() {
         <div className="w-full flex  justify-center py-8 lg:pt-0 lg:pb-4 md:w-[500px] gap-4 px-4">
           <Time time={days} text="Days" />
           <Time time={hours} text="Hours" />
-          <Time time={mins} text="Minutes" hide />
+          <Time time={mins} text="Minutes" />
+          <Time time={secs} text="Seconds" hide />
         </div>
       )}
       <div className="py-6 md:pb-[120px] md:pt-6">
