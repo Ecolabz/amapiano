@@ -23,7 +23,7 @@ function Footer() {
           />
         ))}
       </div>
-      <div className="flex items-center justify-between  lg:max-w-[280px] w-full px-4 py-8 lg:py-0 lg:px-0 mx-auto">
+      {/*   <div className="flex items-center justify-between  lg:max-w-[280px] w-full px-4 py-8 lg:py-0 lg:px-0 mx-auto">
         <Link href="#">
           <span className="tracking-[0.02em] text-base cursor-pointer font-montserat font-normal hover:text-AP-blue-500">
             Terms of service
@@ -34,7 +34,7 @@ function Footer() {
             Privacy Policy
           </span>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
