@@ -30,17 +30,12 @@ const socialLinks = [
   {
     id: 1,
     icon: 'twitter-x-line',
-    href: 'https://x.com/piano_lifestyle',
+    href: 'https://twitter.com/amapiano_style',
   },
   {
     id: 2,
     icon: 'instagram-line',
-    href: 'http://instagram.com/piano_lifestyle_',
-  },
-  {
-    id: 3,
-    icon: 'discord-fill',
-    href: 'https://discord.gg/xeXtWGKUAV',
+    href: 'https://www.instagram.com/amapiano_style',
   },
 ];
 export { navLinks, socialLinks };
