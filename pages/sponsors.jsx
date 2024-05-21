@@ -17,7 +17,7 @@ function Sponsors() {
           </h1>
 
           <p className=" font-sansPro font-normal text-white text-lg md:text-[32px] md:leading-[40px] tracking-[0.02em] pt-[55px]">
-            Sponsors Wanted, are you are brand looking to become a sponsor of our lifestyle events?
+            Sponsors Wanted, are you are a brand looking to become a sponsor of our lifestyle events?
           </p>
           <p className=" font-sansPro font-normal text-white text-lg md:text-[32px] md:leading-[40px] tracking-[0.02em] pt-10">
             Don&apos;t hesitate to shoot us an email:{' '}
