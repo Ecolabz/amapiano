@@ -41,7 +41,7 @@ class CustomDocument extends Document {
           <meta name="twitter:image:alt" content="amapiano lifestyle" />
           <meta
             name="twitter:description"
-            content="Amapiano lifestyle the Littiest Music Festival You Have Ever Seen!"
+            content="Amapiano Lifestyle | A New Way Of Living"
           />
         </Head>
         <body>
