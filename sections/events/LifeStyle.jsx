@@ -45,8 +45,9 @@ function LifeStyleCard() {
           Expect stellar Live Mixes and spectacular DJ sets from your favorite Amapiano Deejays.
         </p>
         <p className="text-AP-grey-300 font-sansPro font-normal text-xl lg:text-[28px] md:leading-[35px] tracking-[0.02em] py-5">
-          The main event will take place in at Ycona Luxury Resort Zanzibar There are no ticket tiers, Everyone is a
-          VIP.
+          The main event will take place in at Ycona Luxury Resort Zanzibar
+          <br />
+          There are no ticket tiers, Everyone is a VIP.
         </p>
       </div>
 
