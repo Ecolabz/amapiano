@@ -21,7 +21,7 @@ class CustomDocument extends Document {
           <meta name="description" content="Amapiano lifestyle the Littiest Music Festival You Have Ever Seen!" />
           <meta
             name="keywords"
-            content="Amapiano lifestyle, Amapiano, lifestyle, music, music lifestyle NFT, community, Blockchain"
+            content="Amapiano Lifestyle | A New Way Of Living"
           />
           <meta property="og:title" content="Amapiano lifestyle" />
           <meta property="og:site_name" content="Amapiano lifestyle" />
