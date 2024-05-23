@@ -16,7 +16,7 @@ function Packages() {
         <Carousel />
       </div>
       <p className="text-center max-w-[800px] mx-auto font-sansPro leading-[30px] pt-16 pb-8 lg:pt-12  lg:pb-8 px-6 lg:px-0 text-[17px] lg:text-[22px]">
-        Yes, our first lifestyle event is happening in Zanzibar this summer! We also have a host of other extra
+        Yes, our first lifestyle event is happening in Zanzibar this summer! <br /> We also have a host of other extra
         experiences to ensure you have a well rounded and culturally immersed visit to Zanzibar for Amapiano Lifestyle
         Summer Vibes Event.
       </p>
