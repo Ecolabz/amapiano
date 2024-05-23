@@ -28,7 +28,7 @@ function LifeStyleCard() {
     >
       <div className="flex flex-col md:flex-row gap-4 md:gap-[40px]">
         <img
-          src="/assets/img_zanzibar.png"
+          src="/assets/img_zanzibar.jpg"
           alt="life style"
           className="w-[250px] h-[249px] md:w-[280px] md:h-[350px]"
         />
