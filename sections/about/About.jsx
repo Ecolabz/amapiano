@@ -49,7 +49,7 @@ function History() {
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
-            <img src="/assets/about.png" alt="" className="w-full h-full" />
+            <img src="/assets/about.jpg" alt="" className="w-full h-full" />
           </div>
           <div
             data-aos="fade-up"

@@ -30,7 +30,7 @@ module.exports = {
         sansPro: ['Source Sans Pro', 'sans-serif'],
       },
       backgroundImage: {
-        homeHero: "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/heroBanner.png')",
+        homeHero: "linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/heroBanner.jpg')",
         'event-lifestyle': "linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/events.svg')",
         slider: 'linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
         'events-sahdow': "url('/assets/events-shadow_rectangle.svg')",

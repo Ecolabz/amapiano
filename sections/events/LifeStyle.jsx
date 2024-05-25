@@ -28,7 +28,7 @@ function LifeStyleCard() {
     >
       <div className="flex flex-col md:flex-row gap-4 md:gap-[40px]">
         <img
-          src="/assets/img_zanzibar.png"
+          src="/assets/img_zanzibar.jpg"
           alt="life style"
           className="w-[250px] h-[249px] md:w-[280px] md:h-[350px]"
         />
@@ -45,8 +45,9 @@ function LifeStyleCard() {
           Expect stellar Live Mixes and spectacular DJ sets from your favorite Amapiano Deejays.
         </p>
         <p className="text-AP-grey-300 font-sansPro font-normal text-xl lg:text-[28px] md:leading-[35px] tracking-[0.02em] py-5">
-          The main event will take place in at Ycona Luxury Resort Zanzibar There are no ticket tiers, Everyone is a
-          VIP.
+          The main event will take place in at Ycona Luxury Resort Zanzibar
+          <br />
+          There are no ticket tiers, Everyone is a VIP.
         </p>
       </div>
 
