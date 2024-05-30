@@ -32,7 +32,7 @@ function LifeStyleCard() {
             Amapiano Lifestyle Summer Vibes Zanzibar 2024
           </h3>
         </aside>
-        <img src="/assets/img_zanzibar.jpg" alt="life style" className="w-full h-[30rem]" />
+        <img src="/assets/img_zanzibar.jpg" alt="life style" className="w-full h-auto min-h-[20rem] object-cover" />
       </div>
 
       <div className="w-full pt-[50px] md:pr-5">
