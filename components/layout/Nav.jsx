@@ -15,7 +15,7 @@ function NavBar() {
       <nav className="w-full  py-[20px] flex items-center justify-between px-4 md:px-8">
         <Logo />
 
-        <div className="items-center justify-between hidden md:flex">
+        <div className="items-center justify-between hidden md:flex gap-[1rem]">
           {navLinks.map(link => (
             <NavLink
               key={link.id}

@@ -12,7 +12,7 @@ function Footer() {
           <Icons key={link.id} icon={link.icon} href={link.href} />
         ))}
       </div>
-      <div className="grid grid-cols-1 md:flex gap-[4px] justify-center py-6 lg:pt-0 lg:pb-4 px-4 text-left">
+      <div className="grid grid-cols-1 md:flex gap-[1rem] justify-center py-6 lg:pt-0 lg:pb-4 px-4 text-left">
         {navLinks.map(link => (
           <NavLink
             key={link.id}
