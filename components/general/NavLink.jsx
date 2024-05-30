@@ -9,7 +9,7 @@ function NavLink({ href, text, classNames, footer, ...rest }) {
     <Link href={href}>
       <span
         {...rest}
-        className={`${active} ${classNames} font-montserat font-bold duration-500 uppercase  mr-6 cursor-pointer text-[24px] leading-[34px]`}
+        className={`${active} ${classNames} font-montserat font-bold duration-500 uppercase  cursor-pointer text-[24px] leading-[34px]`}
       >
         {text}
       </span>
