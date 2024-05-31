@@ -22,29 +22,27 @@ export default function LifeStyle() {
 function LifeStyleCard() {
   return (
     <div
-      className="w-full bg-AP-blue-100 rounded-[10px] md:rounded-[30px] pt-[89px] px-4 md:pl-[70px] md:pr-[30px]"
+      className="w-full bg-AP-blue-100 rounded-[10px] md:rounded-[30px] pt-[89px] px-4 md:pl-[30px] md:pr-[30px]"
       data-aos="fade-up"
       data-aos-duration="2000"
     >
-      <div className="flex flex-col md:flex-row gap-4 md:gap-[40px]">
-        <img
-          src="/assets/img_zanzibar.jpg"
-          alt="life style"
-          className="w-[250px] h-[249px] md:w-[280px] md:h-[350px]"
-        />
+      <div className="flex flex-col gap-4 md:gap-[40px]">
         <aside className="text-AP-grey-300 font-sansPro font-normal pt-4 text-lg md:text-[28px] md:leading-[35px] tracking-[0.02em]">
-          <h3 className="font-[600] font-montserat text-[16px] lg:text-[32px] mb-[24px] leading-[24px] lg:leading-[36px] ">
+          <h3 className="font-[600] font-montserat text-[24px] lg:text-[32px] mb-[24px] leading-[36px] text-center">
             Amapiano Lifestyle Summer Vibes Zanzibar 2024
           </h3>
-          <p>We are bringing together the finest Amapiano Deejays from South Africa.</p>
         </aside>
+        <img src="/assets/img_zanzibar.jpg" alt="life style" className="w-full h-auto min-h-[20rem] object-cover" />
       </div>
 
       <div className="w-full pt-[50px] md:pr-5">
         <p className="text-AP-grey-300 font-sansPro font-normal text-xl lg:text-[28px] md:leading-[35px] tracking-[0.02em]">
-          Expect stellar Live Mixes and spectacular DJ sets from your favorite Amapiano Deejays.
+          We are bringing together the finest Amapiano Deejays from South Africa.
         </p>
         <p className="text-AP-grey-300 font-sansPro font-normal text-xl lg:text-[28px] md:leading-[35px] tracking-[0.02em] py-5">
+          Expect stellar Live Mixes and spectacular DJ sets from your favorite Amapiano Deejays.
+        </p>
+        <p className="text-AP-grey-300 font-sansPro font-normal text-xl lg:text-[28px] md:leading-[35px] tracking-[0.02em] ">
           The main event will take place in at Ycona Luxury Resort Zanzibar
           <br />
           There are no ticket tiers, Everyone is a VIP.

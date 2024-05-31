@@ -6,30 +6,30 @@ import NewsletterSubscribeForm from '../../components/general/NewsletterSubscrib
 
 function Landing() {
   return (
-    <div className="md:min-h-[100vh] min-h-[25rem] w-full h-full -no-repeat bg-cover flex flex-col items-start justify-center bg-center bg-homeHero py-7 md:py-0 md:pl-14 px-2 relative">
+    <div className="md:min-h-[100vh] min-h-[25rem] w-full h-full -no-repeat bg-cover flex flex-col items-center md:items-start justify-center bg-center bg-homeHero py-7 md:py-0 md:pl-14 px-2 relative">
       <h1
         data-aos="fade-right"
         data-aos-duration="1000"
-        className="font-[900] text-xl md:text-[48px] capitalize font-montserat md:leading-[58px] bg-white px-2 py-6 hidden md:block md:max-w-[998px] text-left"
+        className="font-[900] text-xl md:text-[48px] capitalize font-montserat md:leading-[58px] bg-white px-2 py-6 md:block md:max-w-[998px] text-center md:text-left"
       >
         We Don&apos;t Host Parties
       </h1>
       <h1
         data-aos="fade-right"
         data-aos-duration="1000"
-        className="font-[900] text-xl md:text-[48px] capitalize font-montserat md:leading-[58px] bg-white px-2 py-6 hidden md:block md:max-w-[998px] text-left self-center mt-4"
+        className="font-[900] text-xl md:text-[48px] capitalize font-montserat md:leading-[58px] bg-white px-2 py-6 md:block md:max-w-[998px] text-left self-center mt-4"
       >
         We Are A Lifestyle Connoisseur
       </h1>
-      <h1 className="font-[900] block md:hidden text-center px-6 leading-[45px] text-3xl uppercase font-sansPro text-white">
+      {/* <h1 className="font-[900] block md:hidden text-center px-6 leading-[45px] text-3xl uppercase font-sansPro text-white">
         {' '}
         AMAPIANO LIFESTYLE <br /> IS HOSTING THE BIGGEST PARTY YOU&apos;VE EVER SEEN.
-      </h1>
-      <div className="self-center w-[53.5rem] mt-4">
+      </h1> */}
+      <div className="self-center md:w-[53.5rem] mt-4">
         <p
           data-aos="fade-right"
           data-aos-duration="1000"
-          className="hidden md:inline float-right tracking-[2%] md:py-3 self-end leading-[40px] text-[18px] md:text-[25px] bg-white px-4 py-2 font-sansPro"
+          className="inline text-center md:float-right tracking-[2%] leading-[40px] text-[18px] md:text-[25px] bg-white px-4 py-3 font-sansPro"
         >
           Get ready for the event of the year !
         </p>
