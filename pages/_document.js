@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 class CustomDocument extends Document {
   render() {
@@ -19,10 +20,7 @@ class CustomDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
           <meta name="application-name" content="Amapiano lifestyle" />
           <meta name="description" content="Amapiano lifestyle the Littiest Music Festival You Have Ever Seen!" />
-          <meta
-            name="keywords"
-            content="Amapiano Lifestyle | A New Way Of Living"
-          />
+          <meta name="keywords" content="Amapiano Lifestyle | A New Way Of Living" />
           <meta property="og:title" content="Amapiano lifestyle" />
           <meta property="og:site_name" content="Amapiano lifestyle" />
           <meta property="og:url" content="https://amapianolifestyle.com/" />
@@ -39,12 +37,21 @@ class CustomDocument extends Document {
           <meta name="twitter:site" content="@piano_lifestyle" />
           <meta name="twitter:image" content="https://amapianolifestyle.com/assets/banner.jpeg" />
           <meta name="twitter:image:alt" content="amapiano lifestyle" />
-          <meta
-            name="twitter:description"
-            content="Amapiano Lifestyle | A New Way Of Living"
-          />
+          <meta name="twitter:description" content="Amapiano Lifestyle | A New Way Of Living" />
         </Head>
+
         <body>
+          {/* Google tag (gtag.js) */}
+          <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=G-Z6TDE0PK9Q`} />
+
+          <Script strategy="afterInteractive" id="google-analytics">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-Z6TDE0PK9Q');
+          `}
+          </Script>
           <Main />
           <NextScript />
         </body>
