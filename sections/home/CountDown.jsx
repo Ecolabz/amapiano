@@ -59,7 +59,10 @@ function CountDown() {
         </div>
       )}
       <div className="py-6 md:pb-[120px] md:pt-6">
-        <Button title={'get your tickets'} />
+        <Button
+          title={'get your tickets'}
+          href="https://senjaro.app/events/amapiano-lifestyle-summer-vibes-zanzibar-26-2024"
+        />
       </div>
       {/* <div className="absolute -bottom-[100px] left-0 w-full">
         <img src="/assets/home-shadow-rectangle-2.svg" alt="" className="w-full h-full" />

@@ -49,7 +49,14 @@ function History() {
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
-            <img src="/assets/about.jpg" alt="" className="w-full h-full" />
+            <video
+              src="/assets/about.mp4"
+              muted
+              loop
+              autoPlay
+              alt=""
+              className="w-full max-w-screen max-h-screen h-full object-contain"
+            />
           </div>
           <div
             data-aos="fade-up"
