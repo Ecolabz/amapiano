@@ -57,14 +57,28 @@ function Contact() {
         >
           Have Any Inquires?
         </h1>
-        <p
+        {/* <p
           className="text-[22px] text-center py-4 lg:py-2 leading-[35px] tracking-[2%] font-sansPro"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
           Send us a message and we will contact you as soon as we can.
-        </p>
-        <form
+        </p> */}
+        <div
+          className="text-[22px] text-center py-4 lg:py-2 leading-[35px] tracking-[2%] font-sansPro"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          <p>
+            Email us at{' '}
+            <a href="mailto:info@amapianolifestyle.com" className="underline ">
+              info@amapianolifestyle.com
+            </a>
+          </p>
+          <span>OR</span>
+          <p>Send us a DM on X &amp; Instagram</p>
+        </div>
+        {/* <form
           autoComplete="off"
           className="max-w-[550px] py-4 mx-auto w-full flex flex-col"
           data-aos="fade-up"
@@ -102,7 +116,7 @@ function Contact() {
               {loading ? 'Sending....' : 'Submit'}
             </button>
           </div>
-        </form>
+        </form> */}
       </div>
     </>
   );
