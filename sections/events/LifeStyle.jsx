@@ -50,9 +50,12 @@ function LifeStyleCard() {
       </div>
 
       <div className="flex justify-center w-full py-[50px]">
-        <button className="flex flex-row items-center justify-center py-2 px-8 gap-2 bg-AP-grey-200 rounded-[10px] text-white font-sansPro font-bold text-[20px] leading-[32px] duration-500 transition-all hover:bg-opacity-90">
+        <a
+          className="flex flex-row items-center justify-center py-2 px-8 gap-2 bg-AP-grey-200 rounded-[10px] text-white font-sansPro font-bold text-[20px] leading-[32px] duration-500 transition-all hover:bg-opacity-90"
+          href="https://senjaro.app/events/amapiano-lifestyle-summer-vibes-zanzibar-26-2024"
+        >
           Tell Me More
-        </button>
+        </a>
       </div>
     </div>
   );
